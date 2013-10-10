@@ -125,13 +125,8 @@
 			children = (
 				DD8936621806C3DE0041813C /* mbAppDelegate.h */,
 				DD8936631806C3DE0041813C /* mbAppDelegate.m */,
-				DD8936651806C3DE0041813C /* Main.storyboard */,
-				DD89366B1806C3DE0041813C /* mbMasterViewController.h */,
-				DD89366C1806C3DE0041813C /* mbMasterViewController.m */,
-				DD89366E1806C3DE0041813C /* mbDetailViewController.h */,
-				DD89366F1806C3DE0041813C /* mbDetailViewController.m */,
-				DD8936711806C3DF0041813C /* Images.xcassets */,
-				DD8936681806C3DE0041813C /* Controlling_Source.xcdatamodeld */,
+				DD89368F1806C6250041813C /* View Controller */,
+				DD8936901806C6620041813C /* Resources */,
 				DD89365A1806C3DE0041813C /* Supporting Files */,
 			);
 			path = "Controlling Source";
@@ -164,6 +159,27 @@
 				DD8936821806C3DF0041813C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD89368F1806C6250041813C /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DD89366B1806C3DE0041813C /* mbMasterViewController.h */,
+				DD89366C1806C3DE0041813C /* mbMasterViewController.m */,
+				DD89366E1806C3DE0041813C /* mbDetailViewController.h */,
+				DD89366F1806C3DE0041813C /* mbDetailViewController.m */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		DD8936901806C6620041813C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DD8936711806C3DF0041813C /* Images.xcassets */,
+				DD8936651806C3DE0041813C /* Main.storyboard */,
+				DD8936681806C3DE0041813C /* Controlling_Source.xcdatamodeld */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
